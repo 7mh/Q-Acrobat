@@ -18,14 +18,14 @@ sys.argv[2] : if this argument is omitted the game starts with a fresh version o
 Example to play 1000 games when Q-table is populated with previously trained values from file db30000.txt:
 
 Run this:
-    python3 acrobot.py fast db30000.txt     
+    python3 ./src/acrobot.py fast ./data/db30000.txt     
 OR :
     ./run.sh
 
 ## To view 1000 games with graphics
 
  Run this:
-     python3 acrobot.py slow db30000.txt 
+     python3 ./src/acrobot.py slow ./src/db30000.txt 
 
 After 1000 moves the program prints the Q-table values and
 average steps per game for last 1000 games
