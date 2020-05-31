@@ -1,6 +1,6 @@
 # Q-learning Acrobat
 
-Usage: ./acrobat.py [fast/slow] [Name of file to fill Q-table]
+CLI-Usage: ./acrobat.py [fast/slow] [Name of file to fill Q-table]
 
 ### CLI-Usage details about sys.argv
 
