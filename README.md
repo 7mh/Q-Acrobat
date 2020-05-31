@@ -11,6 +11,15 @@ sys.argv[2] : if this argument is omitted the game starts with a fresh version o
             File db20000.txt contains kay values pair from Q-table after 20000 games.
             File db30000.txt contains kay values pair from Q-table after 30000 games.
 
+#### Installation
+
+1. Clone this repo
+2. `cd` into project
+3. Create a virtual environment `python3 -m venv acrbot`
+4. Activate virtual environment `source ./acrbot/bin/activate`
+5. install requirments.txt `pip3 install -r requirement.txt` and now you can run `./run.sh`
+
+
 ## To view 1000 games without graphics
 
 (default value of eta = 0.99 Hence the first 400 games are lost)
