@@ -15,7 +15,7 @@ sys.argv[2] : if this argument is omitted the game starts with a fresh version o
 
 (default value of eta = 0.99 Hence the first 400 games are lost)
 
-Example to play 1000 games when Q-table is populated with previously trained values from file db30000.txt:
+This example plays 1000 games, when Q-table is populated with previously trained values from file db30000.txt:
 
 Run this:
     python3 ./src/acrobot.py fast ./data/db30000.txt     
