@@ -2,7 +2,7 @@
 
 Usage: ./acrobat.py [fast/slow] [Name of file to fill Q-table]
 
-# details about sys.argv
+## CLI-Usage details about sys.argv
 
 sys.argv[1] : can be either 'slow' or 'fast' for running with or without grapics respectively.
 
